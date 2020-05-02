@@ -30,6 +30,7 @@ const sectionParent = sectionArray[0].parentElement;
  * 
 */
 
+/* Check that an element is visible for the user */
 const isInViewport = (domElement, threshold = 0) => {
     const boundaries = domElement.getBoundingClientRect();
     return (
@@ -77,6 +78,7 @@ buildNavBar();
 /* Custom event of the mouse scroll */
 const updateEvent = new Event("update");
 
+/* Dispatch custom event on mouse scroll */
 window.onscroll = () => sectionParent.dispatchEvent(updateEvent);
 
 /* Add event listener to update the visible section and its navigation bar item */
