@@ -6,7 +6,7 @@ Landing page project with a programmatically generated navigation bar.
 
 ## Project structure
 
-- index.html: page layout.
-- js/app.js: programmatically generated navigation bar, highlight section in viewport.
-- css/styles.css: main stylesheet file.
-- css/nav_style.css: style rules of the navigation bar.
+* index.html: page layout.
+* js/app.js: programmatically generated navigation bar, highlight section in viewport.
+* css/styles.css: main stylesheet file.
+* css/nav_style.css: style rules of the navigation bar.
